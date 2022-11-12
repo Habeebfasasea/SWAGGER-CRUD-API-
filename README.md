@@ -8,7 +8,7 @@ Documents can be viewed, edited and deleted by the user that uploaded such ducum
 ### Install Dependencies
 composer install
 
-### If there is an error about an app encription key
+### If there is an error about an application encription key
 php artisan key:generate
 
 ### Run Migrations
