@@ -33,7 +33,7 @@ Document::factory()->times(250)->create();
 ### Public
 POST  /api/v1/register
 
-POST  /api/vi/login
+POST  /api/v1/login
 
 ### Protected
 GET /api/v1/documents
