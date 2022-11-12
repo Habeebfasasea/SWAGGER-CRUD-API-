@@ -2,7 +2,8 @@
 This is a full CRUD API with an Open API documentation. This is an API for document management.
 
 Only registered users are allowed to perform CRUD operations such as uploading, editing, viewing and deleting documents.
-Documents can be viewed, edited and deleted by the user that uploaded such ducument. A user does not have access to documents uploaded by other users.
+Documents can be viewed, edited and deleted by the user that uploaded such ducument. 
+A user does not have access to documents uploaded by other users.
 
 # Quick Start
 ### Install Dependencies
