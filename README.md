@@ -8,12 +8,17 @@ Documents can be viewed, edited and deleted by the user that uploaded such ducum
 ### Install Dependencies
 composer install
 
-### If there is an error about an application encription key
+### If there is an error about an app encription key
 php artisan key:generate
 
 ### Run Migrations
 php artisan migrate
 
-### Populate Database with fake data
-#### For the Users table run:
+## Populate Database with fake data
+### run the command below in your git bash terminal
+php artisan tinker
+#### For the Users table type the command below(this will create 25 users):
 User::factory()->times(25)->create();
+
+#### For the Documents table, type the command below(this will create 250 documents and randomly link them to the users in the users table):
+Document::factory()->times(250)->create();
