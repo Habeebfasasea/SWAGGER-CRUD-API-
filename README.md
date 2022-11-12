@@ -30,11 +30,16 @@ Document::factory()->times(250)->create();
 
 ### Public
 POST  /api/v1/register
+
 POST  /api/vi/login
 
 ### Protected
 GET /api/v1/documents
+
 POST /api/v1/documents
+
 GET /api/v1/documents/{id}
+
 PATCH /api/v1/documents/{id}
+
 DELETE /api/v1/documents/{id}
